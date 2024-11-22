@@ -4,7 +4,7 @@
   "description": "Full stack react app tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,13 @@
   },
   "homepage": "https://github.com/ncc1270/fsratutorial#readme",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "cookie-parser": "^1.4.7",
     "create-react-app": "^5.0.1",
     "express": "^4.21.1",
-    "pg": "^8.13.1"
+    "pg": "^8.13.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
   },
   "devDependencies": {
     "concurrently": "^9.1.0",
